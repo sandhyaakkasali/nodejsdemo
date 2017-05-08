@@ -1,8 +1,8 @@
 var chalk = require('chalk');
 var mongoose = require( 'mongoose' );
 
- var dbURI = 'mongodb://127.0.0.1/employee';
-//var dbURI = mongodb://sandhya:Enjoy123@ds115071.mlab.com:15071/nodejs
+ //var dbURI = 'mongodb://127.0.0.1/employee';
+var dbURI = mongodb://sandhya:Enjoy123@ds115071.mlab.com:15071/nodejs
 
 
 mongoose.Promise = global.Promise;
